@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92FB9AB150F5C6E0013A7C8 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92FB9AA150F5C6E0013A7C8 /* OSAKit.framework */; };
+		E9473882150F413100C179D4 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9473881150F413100C179D4 /* Automator.framework */; };
+		E9473884150F413100C179D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9473883150F413100C179D4 /* Cocoa.framework */; };
+		E94738A3150F418600C179D4 /* JUFileConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = E947389D150F418600C179D4 /* JUFileConverter.m */; };
+		E94738A4150F418600C179D4 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = E947389F150F418600C179D4 /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E92FB9AA150F5C6E0013A7C8 /* OSAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSAKit.framework; path = System/Library/Frameworks/OSAKit.framework; sourceTree = SDKROOT; };
+		E947387E150F413100C179D4 /* Convert Encoding.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convert Encoding.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9473881150F413100C179D4 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		E9473883150F413100C179D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9473886150F413100C179D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9473887150F413100C179D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9473888150F413100C179D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E947389C150F418600C179D4 /* JUFileConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUFileConverter.h; sourceTree = "<group>"; };
+		E947389D150F418600C179D4 /* JUFileConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUFileConverter.m; sourceTree = "<group>"; };
+		E947389F150F418600C179D4 /* main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = main.xib; sourceTree = "<group>"; };
+		E94738A7150F41B000C179D4 /* Convert Encoding-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Convert Encoding-Info.plist"; sourceTree = "<group>"; };
+		E94738A8150F41B000C179D4 /* Convert Encoding-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Convert Encoding-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E947387A150F413100C179D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92FB9AB150F5C6E0013A7C8 /* OSAKit.framework in Frameworks */,
+				E9473882150F413100C179D4 /* Automator.framework in Frameworks */,
+				E9473884150F413100C179D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9473872150F413100C179D4 = {
+			isa = PBXGroup;
+			children = (
+				E947389B150F418600C179D4 /* Classes */,
+				E947389E150F418600C179D4 /* Resources */,
+				E94738A6150F41B000C179D4 /* Supporting files */,
+				E9473880150F413100C179D4 /* Frameworks */,
+				E947387F150F413100C179D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E947387F150F413100C179D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E947387E150F413100C179D4 /* Convert Encoding.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9473880150F413100C179D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9473881150F413100C179D4 /* Automator.framework */,
+				E9473883150F413100C179D4 /* Cocoa.framework */,
+				E92FB9AA150F5C6E0013A7C8 /* OSAKit.framework */,
+				E9473885150F413100C179D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9473885150F413100C179D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9473886150F413100C179D4 /* AppKit.framework */,
+				E9473887150F413100C179D4 /* CoreData.framework */,
+				E9473888150F413100C179D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E947389B150F418600C179D4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E947389C150F418600C179D4 /* JUFileConverter.h */,
+				E947389D150F418600C179D4 /* JUFileConverter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E947389E150F418600C179D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E947389F150F418600C179D4 /* main.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E94738A6150F41B000C179D4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E94738A7150F41B000C179D4 /* Convert Encoding-Info.plist */,
+				E94738A8150F41B000C179D4 /* Convert Encoding-Prefix.pch */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E947387D150F413100C179D4 /* Convert Encoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9473898150F413100C179D4 /* Build configuration list for PBXNativeTarget "Convert Encoding" */;
+			buildPhases = (
+				E9473879150F413100C179D4 /* Sources */,
+				E947387A150F413100C179D4 /* Frameworks */,
+				E947387B150F413100C179D4 /* Resources */,
+				E947387C150F413100C179D4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convert Encoding";
+			productName = "Convert Encoding";
+			productReference = E947387E150F413100C179D4 /* Convert Encoding.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9473874150F413100C179D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E9473877150F413100C179D4 /* Build configuration list for PBXProject "Convert Encoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9473872150F413100C179D4;
+			productRefGroup = E947387F150F413100C179D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E947387D150F413100C179D4 /* Convert Encoding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E947387B150F413100C179D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94738A4150F418600C179D4 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E947387C150F413100C179D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9473879150F413100C179D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94738A3150F418600C179D4 /* JUFileConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9473896150F413100C179D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9473897150F413100C179D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9473899150F413100C179D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting files/Convert Encoding-Prefix.pch";
+				INFOPLIST_FILE = "Supporting files/Convert Encoding-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		E947389A150F413100C179D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting files/Convert Encoding-Prefix.pch";
+				INFOPLIST_FILE = "Supporting files/Convert Encoding-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9473877150F413100C179D4 /* Build configuration list for PBXProject "Convert Encoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9473896150F413100C179D4 /* Debug */,
+				E9473897150F413100C179D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9473898150F413100C179D4 /* Build configuration list for PBXNativeTarget "Convert Encoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9473899150F413100C179D4 /* Debug */,
+				E947389A150F413100C179D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9473874150F413100C179D4 /* Project object */;
+}

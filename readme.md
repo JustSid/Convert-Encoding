@@ -1,0 +1,1 @@
+A quick and dirty Automator action that allows the conversion of files from one text encoding to another text encoding. Nothing special required to build and should probably even run on 10.4, but I only tested it on 10.7.
